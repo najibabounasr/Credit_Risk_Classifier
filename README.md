@@ -7,33 +7,25 @@ Credit risk poses a classification problem that’s inherently imbalanced. This 
 
 ## Instructions
 
-This challenge consists of the following subsections:
+  - This challenge consists of the following subsections:
 
-Split the Data into Training and Testing Sets
+  - Split the Data into Training and Testing Sets
 
-Create a Logistic Regression Model with the Original Data
+  - Create a Logistic Regression Model with the Original Data
 
-Predict a Logistic Regression Model with Resampled Training Data
+  - Predict a Logistic Regression Model with Resampled Training Data
 
-Write a Credit Risk Analysis Report
+  - Write a Credit Risk Analysis Report
 
 
 ## Technologies
 
 ### Instructions
 
-> This project uses the software jupyter lab with the following  softwares, and their installed versions :
-import numpy as np
-import pandas as pd
-from pathlib import Path
-from sklearn.metrics import balanced_accuracy_score
-from sklearn.metrics import confusion_matrix
-from imblearn.metrics import classification_report_imbalanced
-
-import warnings
-warnings.filterwarnings('ignore'
-
-)https://github.com/scikit-learn/scikit-learn
+ This project uses the software jupyter lab with the following  softwares, and their installed versions :
+ 
+  - Jupyter Lab - 3.4.4
+  - Python - 3.10.4
 
 The following python modules are also used in the application. Remember to install these packages via Terminal for MacOS/Linux or GitBash for windows clients. 
 
@@ -87,7 +79,28 @@ After activating the dev environment, install the following libraries via. the c
     pip3 install pandas
     pip3 install numpy
     pip3 install pathlib
-    pip install pyplot
+    pip install pyplotpluw
 '''
 
+## Usage
 
+This application can be accessed by viewing the {{credit_risk_resampling.ipynb}} file using jupyter notebook. It contains information on how to setup a similar application, and so the application can be used as a guide for anyone looking to understand how categorizer models work, can be optimized, and can be evaluated for their accuracy. 
+
+## Contributors
+
+The sole contributor for this project is:
+
+**NAJIB ABOU NASR**
+ no instagram or linkedin yet!
+---
+
+## License
+
+Using the 'MIT' license!
+--- 
+
+## History
+
+### 
+    Here, I documented my command line inputs, to show the changes I had made, and document the debugging and programing process:  
+---
